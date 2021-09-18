@@ -23,24 +23,18 @@ public class CustomerController {
 		@Autowired
 		CustomerService customerService;
 
-		
-		@RequestMapping("/welcome")
-		public String Welcome(HttpServletRequest request) {
-			request.setAttribute("mode", "MODE_HOME");
-			return "welcomepage";
-		}
 
 		@RequestMapping("/register")
 		public String registration(HttpServletRequest request) {
 			request.setAttribute("mode", "MODE_REGISTER");
-			return "welcomepage";
+			return "register";
 		}
 
 		@PostMapping("/save-customer")
 		public String registerCustomer(@ModelAttribute Customer customer, BindingResult bindingResult, HttpServletRequest request) {
 			customerService.saveMyCustomer(customer);
 			request.setAttribute("mode", "MODE_HOME");
-			return "welcomepage";
+			return "index";
 		}
 
 		
@@ -48,18 +42,18 @@ public class CustomerController {
 		@RequestMapping("/login")
 		public String login(HttpServletRequest request) {
 			request.setAttribute("mode", "MODE_LOGIN");
-			return "welcomepage";
+			return "login";
 		}
 		
 		@RequestMapping ("/login-customer")
 		public String loginCustomer(@ModelAttribute Customer customer, HttpServletRequest request) {
 			if(customerService.findByCustomernameAndPassword(customer.getUsername(), customer.getPassword())!=null) {
-				return "homepage";
+				return "index";
 			}
 			else {
 				request.setAttribute("error", "Invalid Customername or Password");
 				request.setAttribute("mode", "MODE_LOGIN");
-				return "welcomepage";
+				return "User name alredy excist please try with another Username";
 				
 			}
 		}

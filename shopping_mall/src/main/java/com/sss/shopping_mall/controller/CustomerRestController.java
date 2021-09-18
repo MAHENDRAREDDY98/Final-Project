@@ -17,11 +17,6 @@ public class CustomerRestController {
 	@Autowired
 	private CustomerService customerService;
 
-	@RequestMapping("/")
-	public String Welcome(HttpServletRequest request) {
-		return "welcomepage";
-	}
-	
 	@GetMapping("/save-customer")
 	public String saveCustomer(@RequestParam String username, @RequestParam String firstname, @RequestParam String lastname, @RequestParam int age, @RequestParam String password) {
 		Customer customer = new Customer(username, firstname, lastname, age, password);
