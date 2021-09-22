@@ -1313,3 +1313,12 @@ org.eclipse.core.runtime.CoreException: Launch configuration MyApplication refer
 2021-09-19 02:24:47,551 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
 2021-09-19 02:24:50,936 [Worker-14: Launching shopping_mall (3)] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Final Project\shopping_mall
 2021-09-19 02:24:50,939 [Worker-14: Launching shopping_mall (3)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B 
+2021-09-19 10:48:32,985 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-09-22 07:11:00,723 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-09-22 07:11:40,552 [Worker-16: Launching SssShoppingMallApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-22 07:11:40,552 [Worker-16: Launching SssShoppingMallApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-09-22 07:11:40,557 [Worker-16: Launching SssShoppingMallApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-09-22 07:11:40,579 [Worker-16: Launching SssShoppingMallApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-09-22 07:11:40,583 [Worker-16: Launching SssShoppingMallApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-22 07:11:40,583 [Worker-16: Launching SssShoppingMallApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-09-22 07:11:40,583 [Worker-16: Launching SssShoppingMallApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Final Project\shopping_mall\src\test\resources
