@@ -1322,3 +1322,4 @@ org.eclipse.core.runtime.CoreException: Launch configuration MyApplication refer
 2021-09-22 07:11:40,583 [Worker-16: Launching SssShoppingMallApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2021-09-22 07:11:40,583 [Worker-16: Launching SssShoppingMallApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
 2021-09-22 07:11:40,583 [Worker-16: Launching SssShoppingMallApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Final Project\shopping_mall\src\test\resources
+2021-09-22 07:39:35,122 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
